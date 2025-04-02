@@ -1,0 +1,12 @@
+footer {
+  padding-block: var(--space-1000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: var(--space-700);
+}
+
+.social-link-icons {
+  display: flex; column-gap: var(--space-350);
+}

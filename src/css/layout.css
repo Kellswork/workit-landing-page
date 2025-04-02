@@ -1,0 +1,16 @@
+.wrapper {
+  padding-inline: var(--space-250);
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .wrapper {
+    width: 80%; 
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px){
+.wrapper {
+  padding-inline: var(--space-550)
+}
+}

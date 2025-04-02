@@ -1,0 +1,14 @@
+@import "./normalize.css";
+@import "./fonts.css";
+@import "./variables.css";
+@import "./layout.css";
+@import "./components/header.css";
+@import "./components/link.css";
+@import "./components/hero-section.css";
+@import "./components/value-section.css";
+@import "./components/card-container-section.css";
+@import "./components/footer.css";
+
+.bg-color {
+  background-color: var(--clr-purple-900);
+}

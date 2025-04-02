@@ -1,0 +1,102 @@
+:root {
+  --font-fraunces: "Fraunces";
+  --font-manrope: "Manrope";
+}
+
+/* ===== Font Faces ===== */
+@font-face {
+  font-family: "Fraunces";
+  src: url('../assets/fonts/Fraunces_144pt-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/Manrope-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/Manrope-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* ===== Typography Utilities ===== */
+.text-preset-1 {
+  font-family: var(--font-fraunces);
+  font-weight: 600;
+  font-size: 5rem; /* 80px */
+  line-height: 1; /* 100% */
+  letter-spacing: 0;
+}
+
+
+
+.text-preset-2 {
+  font-family: var(--font-fraunces);
+  font-weight: 600;
+  font-size: 3.5rem; /* 56px */
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0;
+}
+
+.text-preset-3 {
+  font-family: var(--font-fraunces);
+  font-weight: 600;
+  font-size: 2rem; /* 32px */
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0;
+}
+
+.text-preset-4 {
+  font-family: var(--font-manrope);
+  font-weight: 400;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.8; /* 180% */
+  letter-spacing: 0;
+}
+
+.text-preset-5 {
+  font-family: var(--font-manrope);
+  font-weight: 700;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0;
+}
+
+@media (max-width: 767px) {
+  .text-preset-1 {
+    font-size: 3rem; /* 48px */
+  }
+  .text-preset-2 {
+    font-size: 2rem; /* 32px */
+  }
+  .text-preset-3 {
+    font-size: 1.5rem; /* 24px */
+  }
+  .text-preset-4 {
+    font-size: 1rem; /* 16px */
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .text-preset-1 {
+    font-size: 3.75rem;
+    line-height: 1; 
+  }
+  .text-preset-2 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .text-preset-3 {
+    font-size: 28px; /* 24px */
+  }
+  .text-preset-4 {
+    font-size: 1.125rem;
+  }
+}

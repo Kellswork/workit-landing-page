@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+}
+
+.link-primary {
+  padding-inline: var(--space-400);
+  padding-block: var(--space-150);
+  background-color: var(--clr-green);
+  color: var(--clr-purple-900);
+  border-color: transparent;
+  font-size: 1rem;
+}
+
+.link-secondary {
+  border-bottom: 3px solid var(--clr-green);
+  color: var(--clr-white);
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .link-primary,
+  .link-secondary {
+    font-size: 1.125rem;
+  }
+}
