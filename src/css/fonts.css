@@ -26,16 +26,6 @@
 }
 
 /* ===== Typography Utilities ===== */
-.text-preset-1 {
-  font-family: var(--font-fraunces);
-  font-weight: 600;
-  font-size: 5rem; /* 80px */
-  line-height: 1; /* 100% */
-  letter-spacing: 0;
-}
-
-
-
 .text-preset-2 {
   font-family: var(--font-fraunces);
   font-weight: 600;
@@ -99,4 +89,26 @@
   .text-preset-4 {
     font-size: 1.125rem;
   }
+}
+
+@media (min-width: 1160px) {
+  .text-preset-1 {
+    font-size: 5rem; /* 80px */
+  }
+  .text-preset-2 {
+    font-size: 3.5rem; /* 56px */
+  }
+  
+  .text-preset-3 {
+    font-size: 2rem; /* 32px */
+  }
+  
+  .text-preset-4 {
+    font-size: 1.125rem; /* 18px */
+  }
+  
+  .text-preset-5 {
+    font-size: 1.125rem; /* 18px */
+  }  
+
 }

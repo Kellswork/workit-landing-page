@@ -54,10 +54,25 @@
 .text-underlined {
   text-decoration: underline;
   text-decoration-color: var(--clr-green);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
 }
 
 @media (min-width: 769px) {
   .hero-content h1 {
     max-width: 460px;
+  }
+}
+
+@media (min-width: 1160px) {
+  .hero {
+   block-size: 580px;
+  }
+  .hero-img-container {
+    transform: translate(-50%, 40%);
+  }
+
+  .hero-content h1 {
+    max-width: 635px;
   }
 }

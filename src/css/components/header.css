@@ -12,6 +12,9 @@ nav {
 }
 
 @media (min-width: 768px) {
+  nav {
+    padding-inline: 44px;
+  }
   .bg-pattern-1 {
     width: 600px;
     overflow: visible;
@@ -30,7 +33,24 @@ nav {
     background-position: 4rem 0px;
     position: absolute;
     top: 0;
-    right:0;
+    right: 0;
     transform: translateY(130%);
   }
+}
+
+@media (min-width: 1160px) {
+  nav {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+
+  }
+  .bg-pattern-1 {
+    transform: translate(-21%, 7rem);
+  }
+  .bg-pattern-2 {
+    background-position: 3rem 0px;
+    transform: translateY(93%);
+  }
+
 }

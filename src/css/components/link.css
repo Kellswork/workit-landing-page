@@ -9,12 +9,30 @@ a {
   color: var(--clr-purple-900);
   border-color: transparent;
   font-size: 1rem;
+  transition-property: background-color, border, transform;
+  transition-timing-function: ease;
+  transition-duration: 400ms;
+
+  &:is(:hover) {
+    background-color: transparent;
+    color: var(--clr-green);
+    border: 2px solid var(--clr-green);
+    transform: scale(1.1);
+  }
 }
 
 .link-secondary {
   border-bottom: 3px solid var(--clr-green);
   color: var(--clr-white);
   background-color: transparent;
+  transition-property: color, transform;
+  transition-timing-function: ease;
+  transition-duration: 300ms;
+
+  &:is(:hover){
+ color: var(--clr-green);
+ transform: scale(1.1);
+  }
 }
 
 @media (min-width: 768px) {
