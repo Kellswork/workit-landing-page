@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![workit-screnshot](./src/assets/images/workit-screenshot.webp)
 
 
 ### Links
