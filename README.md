@@ -10,10 +10,8 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [New To me](#new-to-me)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -46,7 +44,7 @@ Users should be able to:
 - Mordern CSS and Component styling
 
 
-### What I learned
+### New To me
 Background position for positioning images with `position: absolute`;
 ```css
 background-psoition : 1rem 1rem;
