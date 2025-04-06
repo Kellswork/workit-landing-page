@@ -1,6 +1,6 @@
 # Frontend Mentor - Workit landing page solution
 
-This is a solution to the [Workit landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Workit landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu).
 
 ## Table of contents
 
@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [GitHub Repo](https://github.com/Kellswork/workit-landing-page)
+- [ Live site](https://your-live-site-url.com)
 
 ## My process
 
@@ -55,9 +55,4 @@ background-psoition : 1rem 1rem;
 ## Author
 
 Kelechi Ogbonna
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- LinkedIn - [@yourusername](https://www.twitter.com/yourusername)
 
-## TODO
--  implements hover and active state
-- update links with the hosted project aand the github links
