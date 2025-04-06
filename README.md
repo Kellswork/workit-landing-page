@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [GitHub Repo](https://github.com/Kellswork/workit-landing-page)
-- [ Live site](https://your-live-site-url.com)
+- [ Live site](https://kellswork.github.io/workit-landing-page)
 
 ## My process
 
