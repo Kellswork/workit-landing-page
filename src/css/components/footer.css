@@ -12,7 +12,24 @@ footer {
   column-gap: var(--space-350);
   align-items: center;
 
-  path:is(:hover) {
-    fill: var(--clr-purple-900);
+
+
+  a {
+    &:is(:focus),
+    &:is(:focus-visible) {
+      color: var(--clr-green);
+      border: 2px solid var(--clr-green);
+      outline: none;
+    }
+
+    svg {
+      path:hover{
+        fill: var(--clr-purple-900);
+      }
+      path:path:focus-visible, path:focus{
+        border: 2px solid var(--clr-green);
+      }
+
+    }
   }
 }
